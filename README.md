@@ -1,0 +1,2 @@
+# R5T.Polidea
+A types library specifically for the GitHubAuthentication type.
