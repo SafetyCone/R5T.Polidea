@@ -1,0 +1,4 @@
+R5T.Polidea.Default - Default implementations library for the IGitHubAuthenticationProvider service.
+
+Goals
+

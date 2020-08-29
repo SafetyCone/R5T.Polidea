@@ -1,0 +1,4 @@
+R5T.Polidea.Base - Base definitions library for the IGitHubAuthenticationProvider service.
+
+Goals
+

@@ -1,0 +1,4 @@
+R5T.Polidea.Standard - Standard aggregation library for the IGitHubAuthenticationProvider service.
+
+Goals
+
