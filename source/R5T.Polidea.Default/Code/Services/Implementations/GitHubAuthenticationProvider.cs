@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Options;using R5T.T0064;
 
 
 namespace R5T.Polidea.Default
-{
-    public class GitHubAuthenticationProvider : IGitHubAuthenticationProvider
+{[ServiceImplementationMarker]
+    public class GitHubAuthenticationProvider : IGitHubAuthenticationProvider,IServiceImplementation
     {
         private IOptions<GitHubAuthentication> GitHubAuthenticationOptions { get; }
 

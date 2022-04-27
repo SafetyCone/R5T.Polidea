@@ -1,10 +1,10 @@
-﻿using System;
-using System.Threading.Tasks;
+using System;
+using System.Threading.Tasks;using R5T.T0064;
 
 
 namespace R5T.Polidea
-{
-    public interface IGitHubAuthenticationProvider
+{[ServiceDefinitionMarker]
+    public interface IGitHubAuthenticationProvider:IServiceDefinition
     {
         Task<GitHubAuthentication> GetGitHubAuthentication();
     }
